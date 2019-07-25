@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2623c85e4e742cd9671f50474c7b0a, type: 3}
+  m_Name: Level 1
+  m_EditorClassIdentifier: 
+  width: 5
+  height: 5
+  boardLayout: []
+  dots:
+  - {fileID: 2945853833521167978, guid: d25ea3d4e5fde094494095bd1ec04c9f, type: 3}
+  - {fileID: 2208934256521802230, guid: f57a7acd0a5829b43955f30b9f360c85, type: 3}
+  - {fileID: 4123946188982771770, guid: 9a81afc8ec3341b4a8c188aa1d00474b, type: 3}
+  - {fileID: 4440177728073151407, guid: e52c052de04265d4899a6d2a32083ca9, type: 3}
+  - {fileID: 3754558079300795942, guid: a6b30b92e9082fc4984daf8ae673d4a1, type: 3}
+  scoreGoals: 640000002c01000058020000
+  endGameRequirements:
+    gameType: 1
+    counterValue: 60
+  levelGoals:
+  - numberNeeded: 6
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 22075efcfa4884531917d580c319e18a, type: 3}
+    matchValue: Blue

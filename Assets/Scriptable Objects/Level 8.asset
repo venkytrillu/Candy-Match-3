@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2623c85e4e742cd9671f50474c7b0a, type: 3}
+  m_Name: Level 8
+  m_EditorClassIdentifier: 
+  width: 8
+  height: 8
+  boardLayout:
+  - x: 0
+    y: 3
+    tileKind: 5
+  - x: 0
+    y: 4
+    tileKind: 5
+  - x: 1
+    y: 3
+    tileKind: 5
+  - x: 1
+    y: 4
+    tileKind: 5
+  - x: 2
+    y: 3
+    tileKind: 5
+  - x: 2
+    y: 4
+    tileKind: 5
+  - x: 3
+    y: 3
+    tileKind: 5
+  - x: 3
+    y: 4
+    tileKind: 5
+  - x: 4
+    y: 3
+    tileKind: 5
+  - x: 4
+    y: 4
+    tileKind: 5
+  - x: 5
+    y: 3
+    tileKind: 5
+  - x: 5
+    y: 4
+    tileKind: 5
+  - x: 6
+    y: 3
+    tileKind: 5
+  - x: 6
+    y: 4
+    tileKind: 5
+  - x: 7
+    y: 3
+    tileKind: 5
+  - x: 7
+    y: 4
+    tileKind: 5
+  dots:
+  - {fileID: 4440177728073151407, guid: e52c052de04265d4899a6d2a32083ca9, type: 3}
+  - {fileID: 4123946188982771770, guid: 9a81afc8ec3341b4a8c188aa1d00474b, type: 3}
+  - {fileID: 4123946188982771770, guid: 9a81afc8ec3341b4a8c188aa1d00474b, type: 3}
+  - {fileID: 2945853833521167978, guid: d25ea3d4e5fde094494095bd1ec04c9f, type: 3}
+  - {fileID: 1635927766150585232, guid: a7767ec19717a5748a02b073bf88ad9f, type: 3}
+  - {fileID: 3754558079300795942, guid: a6b30b92e9082fc4984daf8ae673d4a1, type: 3}
+  scoreGoals: e8030000b80b000094110000
+  endGameRequirements:
+    gameType: 1
+    counterValue: 100
+  levelGoals:
+  - numberNeeded: 20
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: 55c57266d2b9d0d43bda364bd3e94aad, type: 3}
+    matchValue: orange
+  - numberNeeded: 20
+    numberCollected: 0
+    goalSprite: {fileID: 21300000, guid: b35192259ef5b984889541e8540084d6, type: 3}
+    matchValue: Indigo
